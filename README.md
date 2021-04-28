@@ -1,1 +1,1 @@
-# lab02c-Copy-a-Real-Website
+# lab02d-copy-a-site
