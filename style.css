@@ -3,8 +3,7 @@ html, body {
     height: 100%;
     padding: 0%;
     margin: 0%;
-    border: black solid;
-    background-color: grey;
+    background-color: black;
 }
 
 * {
@@ -15,28 +14,29 @@ html, body {
 .grid {
     display: grid;
     height: 100%;
-    width: 50%;
-    margin-left: 500px;
+    width: 70%;
+    margin-left: 300px;
     margin-right: auto;
     background-color: honeydew;
     border: 2px dodgerblue dashed;
-    grid-template-rows: 2fr 1fr 80%;
+    grid-template-rows: 1fr .5fr 90%;
     text-align: center;
     justify-content:stretch;
     
 }
 
 .banner {
-    border: 2px green solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    background-color: #2b293a;
     
 }
 
 .top-nav {
-    border: 2px darkmagenta solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -44,16 +44,41 @@ html, body {
     
 }
 
-.right-nav {
-    border: 2px greenyellow dotted;
+.logo img {
+    width: 180px;
+    height: 26px;
+    text-indent: -9999%;
+    margin-top: 5px;
+    display: block;
+    overflow: hidden;
+    filter: hue-rotate(49.5deg) saturate(100%) brightness(162%);
+
 }
+
+.search {
+    border-top-left-radius: 10px;
+    margin-top: 5px;
+}
+
+.login {
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    color: chartreuse;
+}
+
 
 .center-content {
     border: 2px black solid;
     align-items: center;
+    bac
 }
 
 .inner-boxes {
     border: 2px red dotted;
+    margin: 100px;
 
 }
+
